@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663DEC322552872600CD5591 /* LatLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DEC312552872600CD5591 /* LatLayoutController.swift */; };
+		663DEC352552A88300CD5591 /* HitungLuasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DEC342552A88300CD5591 /* HitungLuasViewController.swift */; };
 		666368E125466CD9004765EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666368E025466CD9004765EB /* AppDelegate.swift */; };
 		666368E325466CD9004765EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666368E225466CD9004765EB /* SceneDelegate.swift */; };
 		666368E525466CD9004765EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666368E425466CD9004765EB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		663DEC312552872600CD5591 /* LatLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLayoutController.swift; sourceTree = "<group>"; };
+		663DEC342552A88300CD5591 /* HitungLuasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitungLuasViewController.swift; sourceTree = "<group>"; };
 		666368DD25466CD9004765EB /* Lat Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lat Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		666368E025466CD9004765EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		666368E225466CD9004765EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663DEC332552A84800CD5591 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				666368E625466CD9004765EB /* Main.storyboard */,
+				666368E425466CD9004765EB /* ViewController.swift */,
+				663DEC312552872600CD5591 /* LatLayoutController.swift */,
+				663DEC342552A88300CD5591 /* HitungLuasViewController.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 		666368D425466CD9004765EB = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +71,9 @@
 		666368DF25466CD9004765EB /* Lat Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
+				663DEC332552A84800CD5591 /* ui */,
 				666368E025466CD9004765EB /* AppDelegate.swift */,
 				666368E225466CD9004765EB /* SceneDelegate.swift */,
-				666368E425466CD9004765EB /* ViewController.swift */,
-				666368E625466CD9004765EB /* Main.storyboard */,
 				666368E925466CDA004765EB /* Assets.xcassets */,
 				666368EB25466CDA004765EB /* LaunchScreen.storyboard */,
 				666368EE25466CDA004765EB /* Info.plist */,
@@ -141,6 +155,8 @@
 				666368E525466CD9004765EB /* ViewController.swift in Sources */,
 				666368E125466CD9004765EB /* AppDelegate.swift in Sources */,
 				666368E325466CD9004765EB /* SceneDelegate.swift in Sources */,
+				663DEC352552A88300CD5591 /* HitungLuasViewController.swift in Sources */,
+				663DEC322552872600CD5591 /* LatLayoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
