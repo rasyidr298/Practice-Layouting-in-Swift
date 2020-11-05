@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662B30442553AB320031B9D7 /* ScroolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B30432553AB320031B9D7 /* ScroolViewController.swift */; };
 		663DEC322552872600CD5591 /* LatLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DEC312552872600CD5591 /* LatLayoutController.swift */; };
 		663DEC352552A88300CD5591 /* HitungLuasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663DEC342552A88300CD5591 /* HitungLuasViewController.swift */; };
 		666368E125466CD9004765EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666368E025466CD9004765EB /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		662B30432553AB320031B9D7 /* ScroolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScroolViewController.swift; sourceTree = "<group>"; };
 		663DEC312552872600CD5591 /* LatLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatLayoutController.swift; sourceTree = "<group>"; };
 		663DEC342552A88300CD5591 /* HitungLuasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitungLuasViewController.swift; sourceTree = "<group>"; };
 		666368DD25466CD9004765EB /* Lat Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lat Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 				666368E425466CD9004765EB /* ViewController.swift */,
 				663DEC312552872600CD5591 /* LatLayoutController.swift */,
 				663DEC342552A88300CD5591 /* HitungLuasViewController.swift */,
+				662B30432553AB320031B9D7 /* ScroolViewController.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				666368E125466CD9004765EB /* AppDelegate.swift in Sources */,
 				666368E325466CD9004765EB /* SceneDelegate.swift in Sources */,
 				663DEC352552A88300CD5591 /* HitungLuasViewController.swift in Sources */,
+				662B30442553AB320031B9D7 /* ScroolViewController.swift in Sources */,
 				663DEC322552872600CD5591 /* LatLayoutController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
